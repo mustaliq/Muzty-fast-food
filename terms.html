@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1.0">
+        <TItle>Terms - MUZTY FAST FOOD</TItle>
+        <link rel="shortcut icon" href="images/mm.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mm.png" width="80px" style="transition: transform 0.3s;">
+                    </a>
+                    <style>
+                        .logo img:hover {
+                            transform: scale(1.1);
+                        }
+                    </style>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="find us.html">FIND US</a></li>
+                        <li><a href="account.html">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/shopping bag.png" width="30px" height="30px"></a>
+                <img src="images/menu_32px.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+    
+    <div class="terms-terms">
+        <div class="terms-box">
+            <div class="terms-text">
+                <h2>TERMS & CONDITIONS</h2>
+                <BR></BR>
+                <P>TREAT YOURSELF TODAY!</P>
+                <BR></BR>
+                <P>Welcome to MUZTY FAST FOOD By ordering from us, you agree to these Terms and Conditions. <br> If you do not agree, please do not place an order.
+                   <br> 
+                    1. Menu and Pricing : <br>
+                    All menu items and prices are subject to change without notice. We strive to provide accurate pricing but reserve the right to correct any errors.
+                    <br>
+                    2. Ordering and Payment : <br>
+                    Orders can be placed through our website, app, or in-store. Payment must be made at the time of ordering. We accept various payment methods, including credit/debit cards and cash.
+                    <br>
+                    3. Delivery and Pickup : <br>
+                    Delivery times may vary based on location and demand. We are not responsible for delays caused by factors outside our control. For pickup orders, please collect your order within [time frame] of the scheduled time.
+                    <br>
+                    4. Food Safety : <br>
+                    We prioritize food safety and quality. If you have any allergies or dietary restrictions, please inform our staff prior to ordering. We cannot guarantee the absence of allergens in our food.
+                    <br>
+                    5. Limitation of Liability : <br>
+                    MUZTY FAST FOOD is not liable for any damages arising from your use of our services or consumption of our products, except as required by law.
+                    <br>
+                    6. Changes to Terms : <br>
+                    We reserve the right to update these Terms and Conditions at any time. Changes will be effective immediately upon posting. Continued use of our services indicates acceptance of the revised terms.
+                    <br>
+                    7. Governing Law : <br>
+                    These terms are governed by the laws of Appellate Jurisdiction. Any disputes shall be resolved in the courts of Appellate Jurisdiction.
+                    </P>
+            </div>
+            <BR></BR>
+            <h4>I Agree To The <span>TERMS & CONDITIONS</span> And I Read The Privacy Notice.</h4>
+            <div class="buttons">
+                <a href=""><button class="btn">AGREE</button></a>
+                <a href=""><button class="btn">DECLINE</button></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!----footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>DOWNLOAD OUR APP</h3>
+                <P>Download Our App for an Even Faster Experience!</P>
+                <div class="app-logo">
+                    <a href=""><img src="images/appstore.jpg"></a>
+                    <a href=""><img src="images/playstore.jpg"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/n-icon.png">
+                <P>We know that life moves fast, and so should your food. </P>
+            </div>
+            <div class="footer-col-3">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <a href="contact.html"><li>CONTACT US</li></a>
+                    <a href="about us.html"><li>ABOUT US</li></a>
+                    <a href="privacy.html"><li>PRIVACY POLICY</li></a>
+                    <a href="terms.html"><li>TERMS OF SERVICES</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li><a href=""><i class='bx bxl-youtube' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-tiktok' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> &#169 COPYRIGHT 2025</p>
+    </div>
+</div>
+
+
+<!----js for toggle menu------->
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px")
+        {
+            menuitems.style.maxHeight = "200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+    </body>
+</html>

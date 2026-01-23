@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1.0, maximum-scale=1.0, user-scalable=no">
+        <TItle>About us - MUZTY FAST FOOD</TItle>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/mm.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/mm.png" width="80px" style="transition: transform 0.3s;">
+                    </a>
+                    <style>
+                        .logo img:hover {
+                            transform: scale(1.1);
+                        }
+                    </style>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="find us.html">FIND US</a></li>
+                        <li><a href="account.html">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/shopping bag.png" width="30px" height="30px"></a>
+                <img src="images/menu_32px.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+    
+
+    <div class="heading">
+        <h1>ABOUT US</h1>
+        <P>We’re committed to providing top-quality services and innovative solutions to meet your needs. Your satisfaction is our priority!</P>
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="about-img">
+                <img src="images/icon22.png">
+            </div>
+            <div class="about-contant">
+                <p>At <b>MUZTY FAST FOOD</b>, we believe that great food should be fast, fresh, and full of flavor. Our passion for delicious meals and excellent service drives us to create a dining experience that’s quick, convenient, and satisfying. Whether you’re in the mood for a juicy burger, crispy fries, or a refreshing drink, we’ve got something for everyone.
+<br> <br>
+<b>Our Mission:</b> <br>
+Our mission is simple: to serve high-quality, flavorful fast food that brings joy to every bite while ensuring speed, affordability, and convenience. We are committed to delivering meals that satisfy your cravings without compromising on taste, freshness, or customer experience.
+<br> <br>
+<b>Our Story:</b> <br>
+
+MUZTY FAST FOOD was founded with a vision—to create a fast food brand that doesn’t just serve meals but creates experiences. We understand that life moves fast, and people need great food that keeps up. From a small idea to a growing brand, we have built a reputation for delicious meals, excellent service, and unbeatable value.
+<br> <br>
+<b>What We Offer:</b> <br>
+
+Our menu is packed with a variety of mouthwatering options, from classic favorites to exciting new creations.<br>
+✔ Burgers & Sandwiches – Freshly made with premium ingredients.<br>
+✔ Fries & Sides – Crispy, golden, and bursting with flavor.<br>
+✔ Drinks & Desserts – The perfect way to complete your meal.<br>
+✔ Special Offers & Deals – Enjoy exclusive discounts and meal combos.
+<br><br>
+
+<b>Our Values:</b> <br>
+
+At MUZTY FAST FOOD, we stand by: <br>
+
+✅ Quality First – Fresh ingredients, great taste, and expert preparation.<br>
+✅ Speed & Convenience – Quick service without compromising quality.<br>
+✅ Customer Satisfaction – We’re committed to making every visit enjoyable.<br>
+✅ Innovation – We continuously introduce new flavors to keep things exciting.
+<br><br>
+<b>Why Choose MUZTY FAST FOOD?</b> <br>
+•	Fast & Friendly Service – Whether you’re dining in, taking out, or ordering online, we ensure a smooth and enjoyable experience.<br>
+•	Affordable Prices – Great food shouldn’t break the bank! We offer delicious meals at reasonable prices.<br>
+•	Hygiene & Safety – Your health is our priority, and we follow strict hygiene and safety standards.<br>
+•	Easy Ordering – Order in-store, online, or through our mobile app for a hassle-free experience.<br>
+</p>
+            </div>
+        </section>
+    </div>
+
+
+</div>
+
+<!----footer---->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>DOWNLOAD OUR APP</h3>
+                <P>Download Our App for an Even Faster Experience!</P>
+                <div class="app-logo">
+                    <a href=""><img src="images/appstore.jpg"></a>
+                    <a href=""><img src="images/playstore.jpg"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/n-icon.png">
+                <P>We know that life moves fast, and so should your food. </P>
+            </div>
+            <div class="footer-col-3">
+                <ul>
+                    <a href="contact.html"><li>CONTACT US</li></a>
+                    <a href="about us.html"><li>ABOUT US</li></a>
+                    <a href="privacy.html"><li>PRIVACY POLICY</li></a>
+                    <a href="terms.html"><li>TERMS OF SERVICES</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li><a href=""><i class='bx bxl-youtube' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href=""><i class='bx bxl-tiktok' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> &#169 COPYRIGHT 2025</p>
+    </div>
+</div>
+
+<!----js for toggle menu------->
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px")
+        {
+            menuitems.style.maxHeight = "200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!----js for toggle form------->
+<script>
+    var LOGINFORM = document.getElementById("LOGINFORM");
+    var REGFORM = document.getElementById("REGFORM");
+    var indicator = document.getElementById("indicator");
+    function register(){
+        REGFORM.style.transform = "translateX(0px)";
+        LOGINFORM.style.transform = "translateX(0px)";
+        indicator.style.transform = "translateX(100px)";
+    }
+    function login(){
+        REGFORM.style.transform = "translateX(300px)";
+        LOGINFORM.style.transform = "translateX(300px)";
+        indicator.style.transform = "translateX(0px)";
+    }
+</script>
+
+    </body>
+</html>
